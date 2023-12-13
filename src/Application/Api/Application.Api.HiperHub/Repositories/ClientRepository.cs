@@ -1,9 +1,10 @@
-﻿using Application.Api.HiperHub.Models;
+﻿using Application.Api.HiperHub.Interfaces.Repositories;
+using Application.Api.HiperHub.Models;
 using Newtonsoft.Json;
 
 namespace Application.Api.HiperHub.Repositories;
 
-public class ClientRepository
+public class ClientRepository : IClientRepository
 {
     public ClientRepository()
     {
