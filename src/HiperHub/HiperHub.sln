@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Application", "1.Application", "{4BDFFF38-E9F7-4FF6-A14D-6F49CEC40A7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Service", "2.Service", "{7F96D81D-26AA-4F23-AC76-00AFCC93F8EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infrastructure", "3.Infrastructure", "{62EE846D-655C-4CBA-84AA-D230F9AAF80C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Domain", "4.Domain", "{2939934C-AA7A-4EE1-85A4-BE564CF62D5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{22C529B0-E530-4BC5-9BFF-9FFCA57C6A35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Api.HiperHub", "..\Application\Api\Application.Api.HiperHub\Application.Api.HiperHub.csproj", "{10772171-F7D2-4A2C-B2BC-0374276C6DD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10772171-F7D2-4A2C-B2BC-0374276C6DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10772171-F7D2-4A2C-B2BC-0374276C6DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10772171-F7D2-4A2C-B2BC-0374276C6DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10772171-F7D2-4A2C-B2BC-0374276C6DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22C529B0-E530-4BC5-9BFF-9FFCA57C6A35} = {4BDFFF38-E9F7-4FF6-A14D-6F49CEC40A7F}
+		{10772171-F7D2-4A2C-B2BC-0374276C6DD5} = {22C529B0-E530-4BC5-9BFF-9FFCA57C6A35}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00740D1B-B6F0-49F3-8606-041EBB605E5E}
+	EndGlobalSection
+EndGlobal
