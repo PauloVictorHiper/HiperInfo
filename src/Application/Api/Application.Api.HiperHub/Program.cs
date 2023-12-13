@@ -1,22 +1,26 @@
-﻿namespace Application.Api.HiperHub;
+﻿using Application.Api.HiperHub.Models;
 
-public class Program : BaseApiProgram<Startup>
+namespace Application.Api.HiperHub;
+
+public class Program 
 {
     public static async Task Main(string[] args)
     {
-        var webHost = BuildWebHost(args);
+        var a = new Client();
+        a.Mo
+        //var webHost = BuildWebHost(args);
 
-        ILogger logger = webHost.Services.GetRequiredService<ILogger<Program>>();
+        //ILogger logger = webHost.Services.GetRequiredService<ILogger<Program>>();
 
-        try
-        {
-            logger.LogInformation("Starting web host");
+        //try
+        //{
+        //    logger.LogInformation("Starting web host");
 
-            await webHost.RunAsync();
-        }
-        catch (Exception ex)
-        {
-            logger.LogCritical(ex, ex.Message);
-        }
+        //    await webHost.RunAsync();
+        //}
+        //catch (Exception ex)
+        //{
+        //    logger.LogCritical(ex, ex.Message);
+        //}
     }
 }

@@ -10,6 +10,6 @@ public class ClientService : IClientService
     }
     public void GetClients()
     {
-        var client = 
+        
     }
 }
